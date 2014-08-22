@@ -2,11 +2,12 @@
 
 pkgname=biicode
 pkgver=1.3.3
-pkgrel=0
+pkgrel=1
 pkgdesc="Simple C/C++ file-based dependency manager"
 arch=('i686' 'x86_64')
 url="http://www.biicode.com"
 license=('unknown')
+install=biicode.install
 
 source=(.AURINFO "https://s3.amazonaws.com/biibinaries/release/1.3.3/bii-ubuntu32_1_3_3.deb")
 md5sums=(SKIP 'fd385f488eaf28182b99c52b9bb3e960')
