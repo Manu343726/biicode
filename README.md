@@ -12,4 +12,4 @@ This package is based on the biicode debian tarball (See the biicode [downloads 
 Status
 ------
 
-Experimental, currently not working (Its only a template).
+Install working. No uninstall scripts.
