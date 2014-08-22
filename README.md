@@ -2,6 +2,7 @@ Biicode AUR package
 ===================
 
 Archlinux package for [biicode](https://www.biicode.com/).
+AUR package: https://aur.archlinux.org/packages/biicode/
 
 Description
 -----------
