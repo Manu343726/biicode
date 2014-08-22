@@ -10,8 +10,7 @@ Description
 This package is based on the biicode debian tarball (See the biicode [downloads section](https://www.biicode.com/downloads)). The `PKGBUILD` just extracts the contents of the .deb and installs them.
 
 The repo should not contain files resulting from running `makepkg`.
-Such metadata should be removed before pushing changes. There is a `clean_makepkg.sh`
-to do the job.
+Such metadata should be removed before pushing changes. 
 
 Status
 ------
