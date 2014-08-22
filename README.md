@@ -15,4 +15,4 @@ Such metadata should be removed before pushing changes.
 Status
 ------
 
-Install and uninstall working.
+Install and uninstall working. Compatible with x86 and x86_64 architectures.
