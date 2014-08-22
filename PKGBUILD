@@ -11,7 +11,5 @@ md5sums=('fd385f488eaf28182b99c52b9bb3e960')
 
 package()
 {
-    tar -zxf data.tar.gz -C "${pkgdir}"
-
-    install -Dm755 "${pkgdir}" /usr/share
+    
 }
