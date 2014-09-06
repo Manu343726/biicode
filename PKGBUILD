@@ -1,11 +1,11 @@
 # Maintainer: Manu Sánchez (Manu343726) <Manu343726.public@gmail.com>
 
-_version="1.3.3"
+_version="1.4.1"
 _version_label=${_version//./_}
 
 pkgname=biicode
 pkgver=$_version
-pkgrel=3
+pkgrel=1
 pkgdesc="Simple C/C++ file-based dependency manager"
 arch=('i686' 'x86_64')
 url="http://www.biicode.com"
@@ -32,7 +32,7 @@ prepare()
 {
     cd $srcdir
     
-    tar -xzf data.tar.gz
+    bsdtar data.tar.gz
     rm data.tar.gz
 }
 
