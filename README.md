@@ -15,4 +15,4 @@ Such metadata should be removed before pushing changes.
 Status
 ------
 
-Install and uninstall working. Compatible with x86 and x86_64 architectures.
+Upgraded to biicode 1.4.1. **NOT WORKING**, python executables issues. See [here](http://unix.stackexchange.com/questions/154072/archlinux-proper-pkgbuild-python-executable-error).
