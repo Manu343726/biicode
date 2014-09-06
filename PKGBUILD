@@ -32,7 +32,7 @@ prepare()
 {
     cd $srcdir
     
-    bsdtar data.tar.gz
+    bsdtar -xf data.tar.gz
     rm data.tar.gz
 }
 
@@ -40,8 +40,5 @@ package()
 {
     cd $srcdir
     
-    install -dm755 "${pkgdir}/usr/lib"
-    install -d     "${pkgdir}/usr/lib/share/doc"
-    cp -r -f "${srcdir}/usr/lib"       "${pkgdir}/usr"   
-    cp -r -f "${srcdir}/usr/share/doc" "${pkgdir}/usr"
+    cp -r -f -v ${srcdir}/usr /
 }
