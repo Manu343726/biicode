@@ -12,7 +12,7 @@ url="http://www.biicode.com"
 license=('unknown')
 install=biicode.install
 
-depends=('cmake>=2.8.12','zlib','lib32zlib','glibc','sqlite','wget')
+depends=('cmake>=3.0.2','zlib','lib32zlib','glibc','sqlite','wget')
 makedepends=('dpkg')
 
 declare -A _package_sums=(["1.3.3 i686"]="fd385f488eaf28182b99c52b9bb3e960"
