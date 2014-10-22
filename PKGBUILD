@@ -5,14 +5,14 @@ _version_label=${_version//./_}
 _debname=""
 pkgname=biicode
 pkgver=$_version
-pkgrel=1
+pkgrel=2
 pkgdesc="Simple C/C++ file-based dependency manager"
 arch=('i686' 'x86_64' 'armv6h')
 url="http://www.biicode.com"
 license=('unknown')
 install=biicode.install
 
-depends=('cmake>=3.0.2','zlib','lib32zlib','glibc','sqlite','wget')
+depends=('cmake>=3.0.2' 'zlib' 'lib32zlib' 'glibc' 'sqlite' 'wget')
 makedepends=('dpkg')
 
 declare -A _package_sums=(["1.3.3 i686"]="fd385f488eaf28182b99c52b9bb3e960"
